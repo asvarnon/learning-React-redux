@@ -8,7 +8,6 @@ class Clock extends React.Component {
         super(props);
         this.state = {date: new Date()};
     }
-
     //Methods
     // DidMount and WillUnmount represent a "life cycle" of the display
     componentDidMount() {
@@ -37,9 +36,5 @@ class Clock extends React.Component {
         );
     }
 }
-
-
-// setInterval(Clock, 1000);
-
 
 export default Clock;
