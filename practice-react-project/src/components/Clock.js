@@ -20,7 +20,8 @@ class Clock extends React.Component {
     }
 
     //adding another tick method to allow clock to increment every second.
-    //after unmount, this state generates a new date after 1 second.
+    //this setState generates a new date after 1 second. setState calls the render() again to learn what
+    //should be on the screen.
     tick() {
         this.setState({
             date: new Date()
