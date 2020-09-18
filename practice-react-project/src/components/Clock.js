@@ -7,6 +7,7 @@ class Clock extends React.Component {
     constructor(props) {
         super(props);
         this.state = {date: new Date()};
+
     }
     //Methods
     // DidMount and WillUnmount represent a "life cycle" of the display
