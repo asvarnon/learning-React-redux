@@ -3,6 +3,7 @@
 *.iml
 .idea
 keys.js
+.env
 # dependencies
 /node_modules
 /.pnp
