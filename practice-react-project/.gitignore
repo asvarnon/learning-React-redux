@@ -2,6 +2,7 @@
 
 *.iml
 .idea
+keys.js
 # dependencies
 /node_modules
 /.pnp
