@@ -3,11 +3,14 @@ import {Link} from 'react-router-dom';
 import DailyForecast from "./DailyForecast";
 
 export default class Weather extends React.Component {
-
-    state = {
-        loading: true,
-        weather: null
+    constructor() {
+        super();
+        this.state = {
+            loading: true,
+            weather: null
+        }
     }
+
 
     async componentDidMount() {
         const home = [-96.8084, 27.7799]; //lng, lat
@@ -36,8 +39,8 @@ export default class Weather extends React.Component {
                     <div>loading...</div>)
                     : (
                         <div>
-                            <div>{this.state.weather.daily[0].humidity}</div>
-                            <DailyForecast />
+                            {/*<div>{this.state.weather.daily[0].humidity}</div>*/}
+                            <DailyForecast day={this.state.weather.daily[0]} />
                         </div>
                     )}
             </div>

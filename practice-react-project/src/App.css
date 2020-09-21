@@ -24,6 +24,21 @@ nav {
   text-decoration: none;
 }
 
+.tweets {
+  background-color: #36367e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.counter {
+  background-color: #48c4ab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Default React CSS below~~~~~~~~~~~~~~~~~~~~~~~~*/

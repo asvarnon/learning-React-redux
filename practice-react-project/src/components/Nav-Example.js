@@ -20,8 +20,11 @@ function Nav() {
                 <Link style={navStyle} to='/shop'>
                     <li>Shop</li>
                 </Link>
-                <Link style={navStyle} to='/weather'>
-                    <li>Weather</li>
+                <Link style={navStyle} to='/tweets'>
+                    <li>Tweets</li>
+                </Link>
+                <Link style={navStyle} to='/counter'>
+                    <li>Counter</li>
                 </Link>
             </ul>
             <Clock />
